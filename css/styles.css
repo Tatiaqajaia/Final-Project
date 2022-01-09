@@ -14,21 +14,40 @@
 }
 .nav-ul{
     display: flex;
+    position: relative;
 }
 .nav-li a{
-    margin: 10px;
+    margin: 15px;
     font-size: 15px;
     color: beige;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    position: relative;
 }
 
 .nav-a{
-    margin: 10px;
+    margin: 15px;
     color: beige;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
-    font-weight: bold;
+    font-weight: bold; 
+    transition: all .5s linear;
+}
+.nav-li a::after{
+    content: ' ';
+    height: 2px;
+    width: 0%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: crimson;
+    transition: all .5s linear;
+}
+.nav-li a:hover::after{
+    width: 100%;
+}
+.nav-li a:hover{
+    color: crimson;
 }
 /* home section */
 .home-section{

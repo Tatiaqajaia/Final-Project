@@ -265,4 +265,67 @@ header{
  .service-box:hover.service-box p{
     color: #202126;
  }
+ /* contact */
+ .contact{
+     max-width: 1300px;
+     width: 100%;
+     margin: 40px auto;
+     background-color: #FAFAFA;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+ .form{
+     max-width: 460px;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     
+ }
+ .input-div{
+     display: flex;
+     flex-direction: column;
+ }
+ .form h3{
+     margin-bottom: 20px;
+     color: #1D1D1D;
+     font-size: 18px;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: bolder;
+ }
+ .form p{
+     margin-bottom: 20px;
+     color: #95989A;
+     font-size: 12px;
+     font-family: 'Open Sans', sans-serif;
+ }
+ .input-form{
+     height: 40px;
+     margin-bottom: 20px;
+     border: none;
+     border: 1px solid #202126;
+     border-radius: 15px;
+ }
+ .input-form::placeholder{
+     color: #D5D5D5;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 12px;
+     padding-left: 5px;
+ }
+ .btn{         
+     border: none;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 16px;
+     font-weight: bold;
+     background-color:  #FAFAFA;
+    
+ }
+ .textarea{
+     height: 100px;
+     padding-top: 10px;
+     resize: none;
+ }
+
+
  

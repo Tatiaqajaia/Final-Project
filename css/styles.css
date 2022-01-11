@@ -207,7 +207,7 @@ header{
 
 /* services */
 .services-main{
-    max-width: 1400px;
+    max-width: 1300px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;

@@ -8,3 +8,6 @@ burgerbutton.addEventListener('click',function(){
 document.getElementById('send-btn').addEventListener('click',function(){
     alert('Thank You!')
 })
+
+// smooth scroll
+var scroll = new SmoothScroll('a[href*="#"]');

@@ -1,3 +1,70 @@
+@media (max-width: 1100px) {
+    .img2{
+        max-width: 470px;
+        width: 100%;
+    }
+    .img1{
+        max-width: 370px;
+        width: 100%;
+    }
+    .img4{
+        max-width: 370px;
+        width: 100%;
+    }
+    .img3{
+        max-width: 470px;
+        width: 100%;
+    }
+    .contact img{
+        max-width: 600px;
+        width: 100%;
+    }
+}
+@media (max-width: 985px) {
+    .img2{
+        max-width: 370px;
+        width: 100%;
+    }
+    .img1{
+        max-width: 270px;
+        width: 100%;
+    }
+    .img4{
+        max-width: 270px;
+        width: 100%;
+    }
+    .img3{
+        max-width: 370px;
+        width: 100%;
+    }
+    .contact img{
+        max-width: 500px;
+        width: 100%;
+    }
+}
+@media (max-width: 831px) {
+    .img2{
+        max-width: 330px;
+        width: 100%;
+    }
+    .img1{
+        max-width: 300px;
+        width: 100%;
+    }
+    .img4{
+        max-width: 300px;
+        width: 100%;
+    }
+    .img3{
+        max-width: 350px;
+        width: 100%;
+    }
+    .contact img{
+        max-width: 450px;
+        width: 100%;
+    }
+}
+
 @media (max-width: 768px) {
     .burger {
         display: block;
@@ -19,4 +86,54 @@
     .header-nav.active{
         display: block;        
     }    
+}
+@media (max-width: 750px) {
+    .company{
+        font-size: 40px;
+    }
+    .projects-div {
+        display: flex;
+        flex-direction: column;        
+    }
+    .img2{
+        max-width: 500px;
+        width: 100%;
+    }
+    .img1{
+        max-width: 400px;
+        width: 100%;
+    }
+    .img4{
+        max-width: 400px;
+        width: 100%;
+    }
+    .img3{
+        max-width: 500px;
+        width: 100%;
+    }
+    .contact img{
+        max-width: 350px;
+        width: 100%;
+    }
+    .form h3 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .form p {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    .input-form {
+        margin-bottom: 10px;
+        height: 25px;
+    }
+    .btn {
+        font-size: 12px;
+    }
+    .textarea {
+        height: 50px;
+    }
+    .input-form::placeholder{
+        font-size: 10px;
+    }
 }

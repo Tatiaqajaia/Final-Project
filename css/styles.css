@@ -377,6 +377,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 .copyright p{
     color: #D5D5D5;
@@ -389,5 +390,6 @@ header{
     color: #D5D5D5;
     margin-left: 10px;
 }
+
 
  

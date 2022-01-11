@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
@@ -17,7 +18,7 @@
     <header>
         <div class="navigation">
             <a class="nav-a" href="index.html">LOGO</a>
-            <nav>
+            <nav class="header-nav" id="navigation">
                 <ul class="nav-ul">
                     <li class="nav-li">
                         <a href="#about">About</a>
@@ -33,6 +34,9 @@
                     </li>
                 </ul>
             </nav>
+            <div class="burger" id="burgerbar"> 
+                <i class="fas fa-bars"></i>
+            </div>
         </div>
     </header>
    
@@ -189,7 +193,7 @@
                     <input class="input-form" type="email" placeholder="EMAIL">                    
                     <textarea class="input-form textarea" name="project" id="descr" placeholder="ABOUT THE PROJECT"></textarea>
                    </div>                   
-                   <button class="btn" type="submit">Send</button>
+                   <button class="btn" id="send-btn" type="submit">Send</button>
                </form>
             </div>
         </div>
@@ -226,5 +230,6 @@
     </footer>
 
 
+    <script src="script.js"></script>
 </body>
 </html>
